@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Form.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <nav >
+        <div class="logo">
+          <h4>Mon ProtFolio</h4>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="Contact.html">Contact</a></li> 
+        </ul>
+        <div class="nav-button">
+          <div class="l1"></div>
+          <div class="l2"></div>
+          <div class="l3"></div>
+        </div>
+      </nav>
+      <div class="Form" name="myForm"  method="post">
+      <div class="myForm">
+        <form>
+         
+          <input type="text" class="e-mail" value="Your e-mail" onclick="value=''"></br>
+          <p class="e-mail-text"></p></br>
+          <input type="text" class="subject" value="Subject" onclick="value=''"></br>
+          <p class="subject-text"></p></br>
+          <h4>Corp du mail</h4></br>
+          <textarea class="body" ></textarea></br>
+          <p class="body-text"></p></br>
+          <button type="button"  onclick="SendMail()" >Envoyer</button>
+        </div>
+        
+        </form>
+    </div>
+        <script src="sendmail.js"></script>
+        <script src="main.js"></script>
+</body>
+</html>

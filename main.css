@@ -194,7 +194,7 @@ display: flex;
   font-size: 18px;
 }
 
-button {
+.cards button {
   border: none;
   outline: 0;
   display: inline-block;
