@@ -198,6 +198,7 @@ display: flex;
   border: none;
   outline: 0;
   display: inline-block;
+  margin-top: 10px;
   padding: 8px;
   color: white;
   background-color: #000;
