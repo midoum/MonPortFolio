@@ -4,21 +4,19 @@ padding: 0px;
 box-sizing: border-box;
 }
 body{
-  background-image: radial-gradient(circle, #eee6ee, #eae7f0, #e6e8f0, #e3e9ef, #e2e9ed);
+  background-color: white;
 }
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: menu2; }
-.item4{ grid-area: footer;}
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-   	'menu menu menu menu menu menu'
-    'menu2 menu2 menu2 menu2 menu2 menu2'
-    'footer footer footer footer footer footer';
+.Background{
+  margin-top: 250px;
+  width: 100%;
+  
+  box-shadow: 3px 3px 3px  rgb(54, 50, 50);
+  
 
-
+  margin-bottom:100px ;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
 
 }
 .footere{
@@ -39,6 +37,33 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+.foot-logo{
+  
+  color:rgb(0, 0, 0);
+    background-image: radial-gradient(circle, #e5c0c0, #d6b3b3, #b69d9d, #f6f6f6, #ffffff);
+   
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ 
+}
+.foot-logo:hover{
+ 
+  color:rgb(255, 2, 78);
+
+}
+.foot-links{
+  
+  color:rgb(0, 0, 0);
+    background-image: radial-gradient(circle, #e5c0c0, #d6b3b3, #b69d9d, #f6f6f6, #ffffff);
+   
+    text-transform: uppercase;
+    letter-spacing: 4px;
+ 
+}
+.foot-links a:hover{
+ color: red;
+
+}
 .logo{
  color: gray; 
  background-image: radial-gradient(circle, #e5c0c0, #d6b3b3, #b69d9d, #f6f6f6, #ffffff);
@@ -48,7 +73,7 @@ nav{
 }
 .logo:hover{
   font-size:30px;
-  color:yellow;
+  color:rgb(202, 20, 35);
   letter-spacing: 6px;
 }
 .nav-links{
@@ -65,7 +90,7 @@ list-style: none;
 }
 .nav-links a:hover {
   font-size: 30px;
- color: yellow;
+ color: rgb(255, 2, 78);
   text-decoration: none;
 }
 .nav-button{
@@ -73,7 +98,7 @@ list-style: none;
   display: none;
 }
 .nav-button:hover div{
-  background-color:yellow;
+  background-color:rgb(255, 2, 78);
 }
 .nav-button:hover{
   cursor: pointer;
@@ -85,22 +110,35 @@ height: 5px;
 width: 20px;
 margin: 2px;
 }
-
-.Comp {
+ .Comp {
   color: blue;
   position: relative;
   left: 100px;
+  bottom: 10px;
+  top: 10px;
 }
 .AutComp {
   color: blue;
   position: relative;
+  top: 10px;
   left: 100px;
+  bottom: 30px;
+}
+.TitilePort{
+  color: blue;
+  position: relative;
+  top: 10px;
+  left: 100px;
+  bottom: 30px;
 }
 .cards{
   
   width: 100%;
+ 
+  
   box-shadow: 3px 3px 3px  rgb(54, 50, 50);
   
+
   margin-bottom:100px ;
   display: flex;
   position: relative;
@@ -191,6 +229,18 @@ a {
   body {
     overflow-x:hidden;
   }
+  .Background{
+   top: 50px;
+    bottom: 100px;
+    display: inline-block;
+   left: 30%;
+  }
+  .Comp{
+    left: -10%;
+  }
+  .AutComp{
+    left:-10%;
+  }
  
     .nav-links{
     display: flex;
@@ -211,6 +261,14 @@ a {
   }
   .nav-active{
     transform: translateX(0%);
+  }
+  .cards
+  {
+    margin-top: 100px;
+    display: inline-block;
+    top: 50px;
+    bottom: 100px;
+    
   }
 }
 @keyframes navLinkFade{
