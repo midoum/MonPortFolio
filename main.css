@@ -111,21 +111,21 @@ width: 20px;
 margin: 2px;
 }
  .Comp {
-  color: blue;
+  color:rgb(255, 2, 78);
   position: relative;
   left: 100px;
   bottom: 10px;
   top: 10px;
 }
 .AutComp {
-  color: blue;
+  color:rgb(255, 2, 78);
   position: relative;
   top: 10px;
   left: 100px;
   bottom: 30px;
 }
 .TitilePort{
-  color: blue;
+  color:rgb(255, 2, 78);
   position: relative;
   top: 10px;
   left: 100px;
