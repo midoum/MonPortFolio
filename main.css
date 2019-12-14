@@ -9,7 +9,7 @@ body{
 .Background{
   margin-top: 250px;
   width: 100%;
-  
+  background-color: whitesmoke;
   box-shadow: 3px 3px 3px  rgb(54, 50, 50);
   
 
@@ -233,7 +233,8 @@ a {
    top: 50px;
     bottom: 100px;
     display: inline-block;
-   left: 30%;
+    
+ 
   }
   .Comp{
     left: -10%;
