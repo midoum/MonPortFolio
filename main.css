@@ -5,17 +5,17 @@ box-sizing: border-box;
 }
 body{
 
-  background-color: white;
+  background-color: gray;
 }
 .Background{
   margin-top: 250px;
   width: 80%;
-  left: 10%;
- 
+
+
  box-shadow:4px 4px 4px gray;
   
-  background-image: linear-gradient(to right top, #dbede7, #d6e3d7, #d6d9c7, #d7cdbb, #d8c1b3);
-  margin: 10px;
+ background-color: gray;  
+ margin: 10px;
   margin-bottom:10px ;
   display: flex;
   position: relative;
@@ -24,9 +24,9 @@ body{
 }
 .Background1{
   
-  width: 80%;
-  background-image: linear-gradient(to right top, #dbede7, #d6e3d7, #d6d9c7, #d7cdbb, #d8c1b3);
-  left: 10%;
+  width: 100%;
+  background-color: gray;
+
   box-shadow: 1px 1px 1px 1px black;
   margin-bottom:100px ;
   display: flex;
@@ -37,24 +37,27 @@ body{
 
 }
 .footere{
-  
+  background-color:rgb(49, 41, 41);
   width: 100%;
   height: 100px;
   margin-top: 100px;
   border-top: solid gray 1px;
 }
 nav{
+  
+  background-color: rgb(49, 41, 41);
   display: flex;
   align-items: center;
   justify-content: space-around;
   min-height: 8vh;
+
   
     font-family: Arial, Helvetica, sans-serif;
 
 }
 .foot-logo{
   
-  color:rgb(0, 0, 0);
+  color:rgb(92, 86, 86);
 
    
     text-transform: uppercase;
@@ -63,12 +66,12 @@ nav{
 }
 .foot-logo:hover{
  
-  color:rgb(255, 2, 78);
+  color:white;
 
 }
-.foot-links{
+.foot-links a{
   
-  color:rgb(0, 0, 0);
+  color:rgb(92, 86, 86);
    
    
     text-transform: uppercase;
@@ -76,19 +79,18 @@ nav{
  
 }
 .foot-links a:hover{
- color: red;
+ color: white;
 
 }
 .logo{
- color: gray; 
- background-image: radial-gradient(circle, #e5c0c0, #d6b3b3, #b69d9d, #f6f6f6, #ffffff);
+ color: rgb(136, 135, 135); 
 
  text-transform: uppercase;
  letter-spacing: 4px;
 }
 .logo:hover{
   font-size:30px;
-  color:rgb(202, 20, 35);
+  color:white;
   letter-spacing: 6px;
 }
 .nav-links{
@@ -100,12 +102,12 @@ list-style: none;
 }
 .nav-links a{
   font-size: 18px;
-  color:gray;
+  color:rgb(124, 119, 119);
   text-decoration: none;
 }
 .nav-links a:hover {
   font-size: 30px;
- color: rgb(255, 2, 78);
+ color: white;
   text-decoration: none;
 }
 .nav-button{
@@ -119,14 +121,14 @@ list-style: none;
   cursor: pointer;
 }
 .nav-button div{
-background-color: gray;
+background-color: white;
 
 height: 5px;
 width: 20px;
 margin: 2px;
 }
  .Comp {
-  color:rgb(255, 2, 78);
+  color:white;
   position: relative;
   top: 10px;
   left: 100px;
@@ -134,7 +136,7 @@ margin: 2px;
 }
 
 .AutComp {
-  color:rgb(255, 2, 78);
+  color:white;
   position: relative;
   top: 10px;
   left: 100px;
@@ -142,7 +144,7 @@ margin: 2px;
 }
 
 .TitilePort{
-  color:rgb(255, 2, 78);
+  color:white;
   position: relative;
   top: 10px;
   left: 100px;
@@ -150,7 +152,7 @@ margin: 2px;
 }
 
 .card1:hover,.card2:hover,.card3:hover{
-  background-color: white;
+  background-color: rgb(34, 29, 29);
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
   max-width: 200px;
 }
@@ -163,6 +165,7 @@ margin: 2px;
 
 }
 .card1 {
+  background-color:white;
   margin-bottom: 50px;
   margin-top: 50px;
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -177,6 +180,7 @@ margin: 2px;
 }
 
 .card2 {
+  background-color:white;
   margin-bottom: 50px;
   margin-top: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -187,6 +191,7 @@ margin: 2px;
  
 }
 .card3 {
+  background-color:white;
   margin-bottom: 50px;
   margin-top: 50px;
   padding: 10px 10px 10px 10px;
@@ -258,7 +263,7 @@ a {
     top: 8.2vh;
     flex-direction: column;
     align-items: center;
-    background-color:white ;
+    background-color:rgb(44, 36, 36) ;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     border-bottom: solid gray 1px;
